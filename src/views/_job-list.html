@@ -1,0 +1,22 @@
+<div class="one-third-box">
+  <div class="service-item tile-area area-1">
+    <div class="details">
+      <h2 class="job-category">Beratung &amp; Projektmanagement</h2>
+    </div>
+  </div>
+</div>
+
+<div class="one-third-box" ng-repeat="job in vm.consultantJobs | filterBy: ['category']:vm.selectedCategory">
+  <div class="tile-content border-area-1">
+    <div class="details">
+      <h2>
+        Consultant/Project Manager
+        <br> (m/w)
+      </h2>
+      <p> Bern<br>
+        <i class="fa fa-job fa-file-text-o"></i>
+        <a href="https://www.nexum.de/downloads/2016-10-24_Stellenausschreibung_Consulting-PM_v01.pdf" target="_blank">Consultant/Project Manager</a>
+      </p>
+    </div>
+  </div>
+</div>

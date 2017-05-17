@@ -1,0 +1,26 @@
+{
+  "name": "nexum-karriere",
+  "version": "0.0.1",
+  "description": "karriere page prototype",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Malte Sellmer",
+  "license": "ISC",
+  "devDependencies": {
+    "angular-filter": "^0.5.16",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sequence": "^0.4.6",
+    "path": "^0.12.7"
+  },
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "angular-sanitize": "^1.6.4"
+  }
+}

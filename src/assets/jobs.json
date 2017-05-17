@@ -1,0 +1,14 @@
+data: [
+  {
+    "title": "Consultant/Project Manager",
+    "gender": "(m/w)",
+    "category": "consultant",
+    "location": ["Köln","Hamburg"]
+  },
+  {
+    "title": "Berater/in mit dem Schwerpunkt Testing und Personalisierung ",
+    "gender": "(m/w)",
+    "category": "consultant",
+    "location": ["Bern"]
+  }
+]
