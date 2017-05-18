@@ -1,0 +1,50 @@
+<div class="row sand hero-image">
+  <div class="sixteen columns clearfix ">
+    <h2 class="job-title">{{vm.job.title}}</h2>
+  </div>
+</div>
+<div class="spacer margin clearfix" ng-class="vm.job.category"></div>
+
+<div class="row sand">
+  <div class="sixteen columns clearfix">
+    <h1>Die nexum. Da sind wir.</h1>
+    <p class="introduction-paragraph">nexum ist die Beratung und Agentur für Kommunikation, Interaktion und Transaktion im digitalen Zeitalter. Durch
+die Verbindung aus bestmöglicher Nutzeransprache (Kommunikation), digitalen Systemen, die für unvergleichliche
+Nutzererlebnisse sorgen (Interaktion) sowie einem klaren Fokus auf Conversion (Transaktion), hilft die nexum ihren
+Kunden, auf digitaler Ebene erfolgreich zu sein.</p>
+    <p class="introduction-paragraph">Als eine der grössten inhabergeführten Agenturen Deutschlands deckt die nexum ein breites Leistungsspektrum ab
+und bietet performance-orientierte digitale Kommunikation und Customer Experience auf höchstem Niveau.</p>
+    <p class="introduction-paragraph">nexum verfügt über Standorte in Bern (Hauptsitz Schweiz) und Basel, Köln (Hauptsitz Deutschland), Hamburg und
+München. Zu den Kunden gehören unter anderem BMW, Coop, FIFA, Intersnack, Post, Lufthansa Miles & More,
+Otto, PENNY sowie Sony</p>
+  </div>
+  <br clear="all">
+</div>
+<div class="spacer clearfix"></div>
+
+<div class="jobtile details">
+  <div class="one-third-box animate">
+    <div class="tile-content border-area-1" ng-class=vm.job.category>
+      <div>
+        <h2>Standort</h2>
+        <p>{{vm.job.location | join:', '}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="one-third-box animate">
+    <div class="tile-content border-area-1" ng-class=vm.job.category>
+      <div>
+        <h2>Starttermin</h2>
+        <p>August 2017</p>
+      </div>
+    </div>
+  </div>
+  <div class="one-third-box animate">
+    <div class="tile-content border-area-1" ng-class=vm.job.category>
+      <div>
+        <h2>Ausbildung</h2>
+        <p>Informatik</p>
+      </div>
+    </div>
+  </div>
+</div>

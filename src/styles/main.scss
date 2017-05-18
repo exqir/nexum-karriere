@@ -8,7 +8,25 @@
   & .job-category {
     font-size: 1rem;
     padding: .2rem .5rem;
+    background-color: #555;
     cursor: pointer;
+
+    &.all {
+      margin-right: .5rem;
+    }
+
+    &.active {
+
+      &.all {
+        background-color: #000;
+      }
+      &.consultant {
+        background-color: #801d54;
+      }
+      &.creative {
+        background-color: #DF002C
+      }
+    }
   }
 }
 
@@ -28,6 +46,11 @@
 
 .tile-content.border-area-1 {
 
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,.1), 0 4px 4px rgba(0,0,0,.1);
+  }
+
   &.consultant {
 
     border-top-color: #801d54
@@ -38,3 +61,5 @@
     border-top-color: #DF002C
   }
 }
+
+@import "detail"

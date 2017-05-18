@@ -31,6 +31,12 @@ gulp.task('sass', function () {
     .pipe(gulp.dest(paths.build.styles))
 })
 
+gulp.task('css', function () {
+  return gulp
+    .src(path.resolve(paths.src.styles, '**/*.css'))
+    .pipe(gulp.dest(paths.build.styles))
+})
+
 gulp.task('scripts', ['coffee'], function () {
 
 })
@@ -85,7 +91,7 @@ gulp.task('angular-filter', function () {
     .pipe(gulp.dest(paths.build.vendor))
 })
 
-gulp.task('app', ['sass', 'scripts', 'views', 'assets', 'angular'], function () {
+gulp.task('app', ['sass', 'css', 'scripts', 'views', 'assets', 'angular'], function () {
   return gulp
     .src(path.resolve(paths.src.root, 'karriere.html'))
     .pipe(gulp.dest(paths.build.dist))
@@ -93,7 +99,7 @@ gulp.task('app', ['sass', 'scripts', 'views', 'assets', 'angular'], function () 
 
 gulp.task('watch-app', function () {
   return gulp
-    .watch(path.resolve(paths.src), ['app'])
+    .watch(path.resolve(paths.src.root), ['dev'])
     .on('change', function (event) {
       console.log('File ' + event.path + ' was ' + event.type + ', running tasks...')
     })

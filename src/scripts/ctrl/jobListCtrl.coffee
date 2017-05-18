@@ -4,6 +4,7 @@
     $filter,
     $injector,
     $routeParams,
+    $location,
     jobService
   ) ->
     jobListCtrl.$inject = [
@@ -11,6 +12,7 @@
       '$filter',
       '$injector',
       '$routeParams',
+      '$location',
       'jobService'
     ]
 
@@ -19,11 +21,10 @@
       @consultantJobs = []
       @creativeJobs = []
       @selectedCategory = []
-
-      @hideConsultant = false
-      @hideCreative = false
-
+      @show = ['all']
+      @isHidden = isHidden
       @toggle = toggle
+      @goToJob = goToJob
 
       getJobs()
 
@@ -37,10 +38,30 @@
           job.category.indexOf('creative') != -1
 
     toggle = (category) =>
-      switch category
-        when 'consultant' then @hideConsultant = !@hideConsultant
-        when 'creative' then @hideCreative = !@hideCreative
-      console.log @hideConsultant
+      if category.indexOf('all') != -1
+        if !contains(category)
+          @show = []
+          @show.push(category)
+      else
+        _all = @show.indexOf('all')
+        if _all != -1 then @show.splice(_all, 1)
+        _index = @show.indexOf(category)
+        if _index != -1
+          @show.splice(_index, 1)
+          @show.push('all') if @show.length == 0
+        else @show.push(category)
+      console.log @show
+
+    contains = (category) =>
+      @show.indexOf(category) != -1
+
+    isHidden = (category) =>
+      !contains(category) and !contains('all')
+
+    goToJob = (slug) =>
+      console.log slug
+      $location.path(slug)
+      # $location.search('job', slug)
 
     init()
     return

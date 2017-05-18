@@ -4,7 +4,7 @@
 
   <!-- CONSULTANT HEAD -->
 
-  <div class="one-third-box animate" ng-hide="vm.hideConsultant">
+  <div class="one-third-box animate" ng-hide="vm.isHidden('consultant')">
     <div class="service-item tile-area area-1">
       <div class="details">
         <h2 class="job-category">Beratung &amp; Projektmanagement</h2>
@@ -14,13 +14,15 @@
 
   <!-- CONSULTANT HEAD END -->
 
-  <div class="one-third-box animate" ng-hide="vm.hideConsultant" ng-repeat="job in vm.consultantJobs | filterBy: ['category']:vm.selectedCategory">
-    <div class="tile-content border-area-1" ng-class=job.category>
+  <div class="one-third-box animate" ng-hide="vm.isHidden('consultant')"
+  ng-repeat="job in vm.consultantJobs">
+    <div class="tile-content border-area-1" ng-click="vm.goToJob(job.slug)" ng-class=job.category>
       <div class="details">
         <h2>
           {{job.title}}
           <br> {{job.gender}}
         </h2>
+        <a href="#/{{job.slug}}/">Link</a>
         <p>{{job.location | join:', '}}<br>
           <i class="fa fa-job fa-file-text-o"></i>
           <a href="https://www.nexum.de/downloads/2016-10-24_Stellenausschreibung_Consulting-PM_v01.pdf" target="_blank">Consultant/Project Manager</a>
@@ -31,7 +33,7 @@
 
   <!-- CREATIVE HEAD -->
 
-  <div class="one-third-box animate" ng-hide="vm.hideCreative">
+  <div class="one-third-box animate" ng-hide="vm.isHidden('creative')">
     <div class="service-item tile-area area-2">
       <div class="details">
         <h2 class="job-category">Kreation</h2>
@@ -41,7 +43,7 @@
 
   <!-- CREATIVE HEAD END -->
 
-  <div class="one-third-box animate" ng-hide="vm.hideCreative" ng-repeat="job in vm.creativeJobs | filterBy: ['category']:vm.selectedCategory">
+  <div class="one-third-box animate" ng-hide="vm.isHidden('creative')" ng-repeat="job in vm.creativeJobs | filterBy: ['category']:vm.selectedCategory">
     <div class="tile-content border-area-1" ng-class=job.category>
       <div class="details">
         <h2>
