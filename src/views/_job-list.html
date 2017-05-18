@@ -1,22 +1,59 @@
-<div class="one-third-box">
-  <div class="service-item tile-area area-1">
-    <div class="details">
-      <h2 class="job-category">Beratung &amp; Projektmanagement</h2>
-    </div>
-  </div>
-</div>
+<nxm-welcome-area></nxm-welcome-area>
 
-<div class="one-third-box" ng-repeat="job in vm.consultantJobs | filterBy: ['category']:vm.selectedCategory">
-  <div class="tile-content border-area-1">
-    <div class="details">
-      <h2>
-        Consultant/Project Manager
-        <br> (m/w)
-      </h2>
-      <p> Bern<br>
-        <i class="fa fa-job fa-file-text-o"></i>
-        <a href="https://www.nexum.de/downloads/2016-10-24_Stellenausschreibung_Consulting-PM_v01.pdf" target="_blank">Consultant/Project Manager</a>
-      </p>
+<div class="jobtile">
+
+  <!-- CONSULTANT HEAD -->
+
+  <div class="one-third-box animate" ng-hide="vm.hideConsultant">
+    <div class="service-item tile-area area-1">
+      <div class="details">
+        <h2 class="job-category">Beratung &amp; Projektmanagement</h2>
+      </div>
     </div>
   </div>
+
+  <!-- CONSULTANT HEAD END -->
+
+  <div class="one-third-box animate" ng-hide="vm.hideConsultant" ng-repeat="job in vm.consultantJobs | filterBy: ['category']:vm.selectedCategory">
+    <div class="tile-content border-area-1" ng-class=job.category>
+      <div class="details">
+        <h2>
+          {{job.title}}
+          <br> {{job.gender}}
+        </h2>
+        <p>{{job.location | join:', '}}<br>
+          <i class="fa fa-job fa-file-text-o"></i>
+          <a href="https://www.nexum.de/downloads/2016-10-24_Stellenausschreibung_Consulting-PM_v01.pdf" target="_blank">Consultant/Project Manager</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CREATIVE HEAD -->
+
+  <div class="one-third-box animate" ng-hide="vm.hideCreative">
+    <div class="service-item tile-area area-2">
+      <div class="details">
+        <h2 class="job-category">Kreation</h2>
+      </div>
+    </div>
+  </div>
+
+  <!-- CREATIVE HEAD END -->
+
+  <div class="one-third-box animate" ng-hide="vm.hideCreative" ng-repeat="job in vm.creativeJobs | filterBy: ['category']:vm.selectedCategory">
+    <div class="tile-content border-area-1" ng-class=job.category>
+      <div class="details">
+        <h2>
+          {{job.title}}
+          <br> {{job.gender}}
+        </h2>
+        <p>{{job.location | join:', '}}<br>
+          <i class="fa fa-job fa-file-text-o"></i>
+          <a href="https://www.nexum.de/downloads/2016-10-24_Stellenausschreibung_Consulting-PM_v01.pdf" target="_blank">Consultant/Project Manager</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
 </div>

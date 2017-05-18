@@ -34,10 +34,10 @@ module.exports = function (config) {
       js: path.resolve(paths.src.nodeModules, 'angular-sanitize/angular-sanitize.min.js'),
       map: path.resolve(paths.src.nodeModules, 'angular-sanitize/angular-sanitize.min.js.map')
     },
-    // animate: {
-    //   js: path.resolve(paths.src.nodeModules, 'angular-animate/angular-animate.min.js'),
-    //   map: path.resolve(paths.src.nodeModules, 'angular-animate/angular-animate.min.js.map')
-    // },
+    animate: {
+      js: path.resolve(paths.src.nodeModules, 'angular-animate/angular-animate.min.js'),
+      map: path.resolve(paths.src.nodeModules, 'angular-animate/angular-animate.min.js.map')
+    },
     filter: {
       js: path.resolve(paths.src.nodeModules, 'angular-filter/dist/angular-filter.min.js')
     }

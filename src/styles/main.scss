@@ -1,0 +1,40 @@
+.category-filter-list {
+  list-style: none;
+
+  & li {
+    display: inline-block;
+  }
+
+  & .job-category {
+    font-size: 1rem;
+    padding: .2rem .5rem;
+    cursor: pointer;
+  }
+}
+
+.one-third-box {
+  opacity: 1;
+
+  &.animate.ng-hide {
+    opacity: 0;
+  }
+
+  &.animate.ng-hide-add,
+  &.animate.ng-hide-remove {
+    transition: all linear 0.25s;
+  }
+}
+
+
+.tile-content.border-area-1 {
+
+  &.consultant {
+
+    border-top-color: #801d54
+  }
+
+  &.creative {
+
+    border-top-color: #DF002C
+  }
+}

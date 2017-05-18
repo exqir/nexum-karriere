@@ -1,14 +1,60 @@
-data: [
-  {
-    "title": "Consultant/Project Manager",
-    "gender": "(m/w)",
-    "category": "consultant",
-    "location": ["Köln","Hamburg"]
-  },
-  {
-    "title": "Berater/in mit dem Schwerpunkt Testing und Personalisierung ",
-    "gender": "(m/w)",
-    "category": "consultant",
-    "location": ["Bern"]
-  }
-]
+{
+  "data": [
+    {
+      "title": "Consultant/Project Manager",
+      "slug": "consultant-project-manager",
+      "gender": "(m/w)",
+      "category": "consultant",
+      "location": ["Köln","Hamburg"]
+    },
+    {
+      "title": "Berater/in mit dem Schwerpunkt Testing und Personalisierung",
+      "slug": "consultant-testing-personas",
+      "gender": "(m/w)",
+      "category": "consultant",
+      "location": ["Bern"]
+    },
+    {
+      "title": "Consultant/Project Manager",
+      "slug": "consultant-project-manager",
+      "gender": "(m/w)",
+      "category": "consultant",
+      "location": ["Köln","Hamburg"]
+    },
+    {
+      "title": "Berater/in mit dem Schwerpunkt Testing und Personalisierung",
+      "slug": "consultant-testing-personas",
+      "gender": "(m/w)",
+      "category": "consultant",
+      "location": ["Bern"]
+    },
+    {
+      "title": "Senior Kampagnenkonzepter Digital",
+      "slug": "creative-senior-konzepter",
+      "gender": "(m/w)",
+      "category": "creative",
+      "location": ["Köln"]
+    },
+    {
+      "title": "Senior Art Director Digital",
+      "slug": "creative-senior-art-director",
+      "gender": "(m/w)",
+      "category": "creative",
+      "location": ["Köln"]
+    },
+    {
+      "title": "Senior Kampagnenkonzepter Digital",
+      "slug": "creative-senior-konzepter",
+      "gender": "(m/w)",
+      "category": "creative",
+      "location": ["Köln"]
+    },
+    {
+      "title": "Senior Art Director Digital",
+      "slug": "creative-senior-art-director",
+      "gender": "(m/w)",
+      "category": "creative",
+      "location": ["Köln"]
+    }
+  ]
+}

@@ -19,7 +19,6 @@
   <link rel="home" href="https://www.nexum.de/" />
   <link href='https://fonts.googleapis.com/css?family=Neuton:700|Open+Sans:300,700|Crimson+Text:400' rel='stylesheet' type='text/css'>
   <!-- Maxymiser script start -->
-  <script type="text/javascript" src="//service.maxymiser.net/api/eu/nexum.de/eb3dfd/mmapi.js"></script>
   <!-- Maxymiser script end -->
 
 
@@ -37,11 +36,6 @@
 <!-- meta end -->
 
 <!-- Start: facebook Open Graph -->
-<meta property="og:url" content="https://www.nexum.de/">
-<meta property="og:title" content="Beratung und Agentur für Kommunikation, Interaktion und Transaktion | nexum AG" />
-<meta property="og:description" content="nexum ist die Beratung und Agentur für Kommunikation, Interaktion und Transaktion im digitalen Zeitalter. Wir lieben User Experience und spannende Projekte." />
-<meta property="og:type" content "website" />
-<meta property="og:image" content="https://www.nexum.de/assets/images/backgrounds/nxbg03.png" />
 <!-- End: facebook Open Graph -->
 
 <link type="text/plain" rel="author" href="../../humans.txt">
@@ -97,27 +91,6 @@
 
 <body>
   <!-- Google Tag Manager -->
-  <noscript>
-    <iframe src="//www.googletagmanager.com/ns.html?id=GTM-PNLLL5" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
-  <script>
-    (function (w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-          'gtm.start': new Date().getTime(),
-          event: 'gtm.js'
-        }
-
-      );
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src =
-        '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-PNLLL5');
-  </script>
   <!-- End Google Tag Manager -->
   <!-- Navigation -->
   <div class="nav-container">
@@ -183,21 +156,21 @@
   </div>
   <section class="content jobs pt-90 pb-90">
     <div class="container">
-      <div class="row sand">
-        <div class="sixteen columns clearfix">
-          <h1>Die nexum. Da geht was.</h1>
-          <p class="first-paragraph">Super Kunden, reizvolle Aufgaben und spannende Projekte? Definitiv. Kreatives Umfeld mit toller Atmosphäre? Sagt jeder. Das allerbeste Team überhaupt? Keine Frage! Also, wir wüssten jetzt echt nicht, warum man sich nicht bei uns bewerben sollte.
-            Los jetzt :-)</p>
-          <h2>Hier unsere freien Stellen:</h2>
-        </div>
-        <br clear="all">
-      </div>
-      <div class="spacer clearfix"></div>
 
       <!-- MANIPULATION INSERT HTML -->
       <!-- ########################### -->
 
-      <div ng-view class="jobtile">
+      <nxmWelcomeArea></nxmWelcomeArea>
+
+      <!-- MANIPULATION INSERT HTML -->
+      <!-- ########################### -->
+
+      <div class="spacer clearfix"></div>
+
+      <!-- MANIPULATION INSERT HTML -->
+      <!-- ########################### -->
+      <div ng-view></div>
+      <div class="jobtile">
         <div class="one-third-box">
           <div class="service-item tile-area area-1">
             <div class="details">
@@ -632,7 +605,6 @@
     sizeVideoFallback();
   });
 </script>
-<script type="text/javascript" src="https://www.nexum.de/nx-assets/js/vendor/modernizr/modernizr-2.6.2.min.js"></script></body>
 
 <!-- MANIPULATION INSERT SCRIPTS -->
 <!-- ########################### -->
@@ -646,5 +618,7 @@
 
 <!-- ########################### -->
 <!-- MANIPULATION INSERT SCRIPTS END -->
+
+<script type="text/javascript" src="https://www.nexum.de/nx-assets/js/vendor/modernizr/modernizr-2.6.2.min.js"></script></body>
 
 </html>

@@ -9,6 +9,7 @@
   "author": "Malte Sellmer",
   "license": "ISC",
   "devDependencies": {
+    "angular-animate": "^1.6.4",
     "angular-filter": "^0.5.16",
     "del": "^2.2.2",
     "gulp": "^3.9.1",

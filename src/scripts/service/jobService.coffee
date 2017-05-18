@@ -7,7 +7,7 @@
       return $http
       .get(url)
       .then (result) =>
-        return result.data
+        return result.data.data
 
     @getJobs = () =>
       get(base + 'jobs.json')

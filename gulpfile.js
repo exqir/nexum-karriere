@@ -74,9 +74,9 @@ gulp.task('angular-sanitize', function () {
 })
 
 gulp.task('angular-animate', function () {
-  // return gulp
-  //   .src([paths.src.angular.animate.js, paths.src.angular.animate.map])
-  //   .pipe(gulp.dest(paths.build.vendor))
+  return gulp
+    .src([paths.src.angular.animate.js, paths.src.angular.animate.map])
+    .pipe(gulp.dest(paths.build.vendor))
 })
 
 gulp.task('angular-filter', function () {
