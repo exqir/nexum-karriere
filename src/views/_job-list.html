@@ -22,11 +22,12 @@
           {{job.title}}
           <br> {{job.gender}}
         </h2>
-        <a href="#/{{job.slug}}/">Link</a>
         <p>{{job.location | join:', '}}<br>
-          <i class="fa fa-job fa-file-text-o"></i>
-          <a href="https://www.nexum.de/downloads/2016-10-24_Stellenausschreibung_Consulting-PM_v01.pdf" target="_blank">Consultant/Project Manager</a>
         </p>
+        <button class="pdf-download">
+          <i class="fa fa-job fa-file-pdf-o"></i>
+          <a href="https://www.nexum.de/downloads/2016-10-24_Stellenausschreibung_Consulting-PM_v01.pdf" target="_blank">Als PDF</a>
+        </button>
       </div>
     </div>
   </div>
@@ -44,16 +45,18 @@
   <!-- CREATIVE HEAD END -->
 
   <div class="one-third-box animate" ng-hide="vm.isHidden('creative')" ng-repeat="job in vm.creativeJobs | filterBy: ['category']:vm.selectedCategory">
-    <div class="tile-content border-area-1" ng-class=job.category>
+    <div class="tile-content border-area-1" ng-click="vm.goToJob(job.slug)" ng-class=job.category>
       <div class="details">
         <h2>
           {{job.title}}
           <br> {{job.gender}}
         </h2>
         <p>{{job.location | join:', '}}<br>
-          <i class="fa fa-job fa-file-text-o"></i>
-          <a href="https://www.nexum.de/downloads/2016-10-24_Stellenausschreibung_Consulting-PM_v01.pdf" target="_blank">Consultant/Project Manager</a>
         </p>
+        <button class="pdf-download">
+          <i class="fa fa-job fa-file-pdf-o"></i>
+          <a href="https://www.nexum.de/downloads/2016-10-24_Stellenausschreibung_Consulting-PM_v01.pdf" target="_blank">Als PDF</a>
+        </button>
       </div>
     </div>
   </div>

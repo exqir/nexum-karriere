@@ -55,7 +55,13 @@ gulp.task('views', function () {
     .pipe(gulp.dest(paths.build.views))
 })
 
-gulp.task('assets', function () {
+gulp.task('fonts', function () {
+  return gulp
+    .src(path.resolve(paths.src.fonts, '**/*'))
+    .pipe(gulp.dest(paths.build.fonts))
+})
+
+gulp.task('assets', ['fonts'], function () {
   return gulp
     .src(path.resolve(paths.src.assets, '**/*'))
     .pipe(gulp.dest(paths.build.assets))

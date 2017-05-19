@@ -10,6 +10,7 @@ module.exports = function (config) {
       styles: path.resolve(__dirname, config.src, 'styles'),
       views: path.resolve(__dirname, config.src, 'views'),
       assets: path.resolve(__dirname, config.src, 'assets'),
+      fonts: path.resolve(__dirname, config.src, 'fonts'),
       root: path.resolve(__dirname, config.src)
     },
     build: {

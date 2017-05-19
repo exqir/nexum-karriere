@@ -24,6 +24,7 @@
       @show = ['all']
       @isHidden = isHidden
       @toggle = toggle
+      @contains = contains
       @goToJob = goToJob
 
       getJobs()
@@ -50,7 +51,6 @@
           @show.splice(_index, 1)
           @show.push('all') if @show.length == 0
         else @show.push(category)
-      console.log @show
 
     contains = (category) =>
       @show.indexOf(category) != -1
@@ -59,9 +59,7 @@
       !contains(category) and !contains('all')
 
     goToJob = (slug) =>
-      console.log slug
       $location.path(slug)
-      # $location.search('job', slug)
 
     init()
     return

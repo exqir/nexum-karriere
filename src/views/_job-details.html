@@ -1,6 +1,8 @@
-<div class="row sand hero-image">
+<div class="row sand hero-image" ng-class="vm.job.category">
   <div class="sixteen columns clearfix ">
-    <h2 class="job-title">{{vm.job.title}}</h2>
+    <div class="job-title">
+      <h2>{{vm.job.title}}<span>{{vm.job.gender}}</span></h2>
+    </div>
   </div>
 </div>
 <div class="spacer margin clearfix" ng-class="vm.job.category"></div>
@@ -8,43 +10,133 @@
 <div class="row sand">
   <div class="sixteen columns clearfix">
     <h1>Die nexum. Da sind wir.</h1>
-    <p class="introduction-paragraph">nexum ist die Beratung und Agentur für Kommunikation, Interaktion und Transaktion im digitalen Zeitalter. Durch
+    <p class="paragraph">nexum ist die Beratung und Agentur für Kommunikation, Interaktion und Transaktion im digitalen Zeitalter. Durch
 die Verbindung aus bestmöglicher Nutzeransprache (Kommunikation), digitalen Systemen, die für unvergleichliche
 Nutzererlebnisse sorgen (Interaktion) sowie einem klaren Fokus auf Conversion (Transaktion), hilft die nexum ihren
 Kunden, auf digitaler Ebene erfolgreich zu sein.</p>
-    <p class="introduction-paragraph">Als eine der grössten inhabergeführten Agenturen Deutschlands deckt die nexum ein breites Leistungsspektrum ab
+    <p class="paragraph">Als eine der grössten inhabergeführten Agenturen Deutschlands deckt die nexum ein breites Leistungsspektrum ab
 und bietet performance-orientierte digitale Kommunikation und Customer Experience auf höchstem Niveau.</p>
-    <p class="introduction-paragraph">nexum verfügt über Standorte in Bern (Hauptsitz Schweiz) und Basel, Köln (Hauptsitz Deutschland), Hamburg und
+    <p class="paragraph">nexum verfügt über Standorte in Bern (Hauptsitz Schweiz) und Basel, Köln (Hauptsitz Deutschland), Hamburg und
 München. Zu den Kunden gehören unter anderem BMW, Coop, FIFA, Intersnack, Post, Lufthansa Miles & More,
 Otto, PENNY sowie Sony</p>
   </div>
   <br clear="all">
 </div>
-<div class="spacer clearfix"></div>
+<div class="spacer margin clearfix"></div>
 
 <div class="jobtile details">
-  <div class="one-third-box animate">
+  <!-- <div class="one-third-box animate">
     <div class="tile-content border-area-1" ng-class=vm.job.category>
-      <div>
+      <div class="center">
         <h2>Standort</h2>
+        <i class="fa fa-globe fa-4" aria-hidden="true"></i>
         <p>{{vm.job.location | join:', '}}</p>
       </div>
     </div>
   </div>
   <div class="one-third-box animate">
     <div class="tile-content border-area-1" ng-class=vm.job.category>
-      <div>
+      <div class="center">
         <h2>Starttermin</h2>
+        <i class="fa fa-calendar-o fa-4" aria-hidden="true"></i>
         <p>August 2017</p>
       </div>
     </div>
   </div>
   <div class="one-third-box animate">
     <div class="tile-content border-area-1" ng-class=vm.job.category>
-      <div>
+      <div class="center">
         <h2>Ausbildung</h2>
+        <i class="fa fa-graduation-cap fa-4" aria-hidden="true"></i>
         <p>Informatik</p>
       </div>
+    </div>
+  </div> -->
+
+  <div class="eight columns half margin">
+    <div class="tile-content" ng-class="vm.job.category">
+      <div>
+        <h2>Was du mitbringst</h2>
+        <div class="spacer white clearfix"></div>
+        <ul class="abilities fa-ul">
+          <li><i class="fa-li fa fa-check"></i>Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung</li>
+          <li><i class="fa-li fa fa-check"></i>Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft</li>
+          <li><i class="fa-li fa fa-check"></i>Fundierte Kenntnisse im Bereich IT/Neue Medien</li>
+          <li><i class="fa-li fa fa-check"></i>Gutes technisches Verständnis für aktuelle Webtechnologien</li>
+          <li><i class="fa-li fa fa-check"></i>Erfahrungen mit gängigen PMMethoden und -Tools</li>
+          <li><i class="fa-li fa fa-check"></i>Moderations- und Präsentationsfähigkeiten</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="eight columns half second margin">
+    <div class="tile-content" ng-class="vm.job.category">
+      <div>
+        <h2>Was du machen wirst</h2>
+        <div class="spacer white clearfix"></div>
+        <ul class="abilities fa-ul">
+          <li><i class="fa-li fa fa-rocket"></i>Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung</li>
+          <li><i class="fa-li fa fa-rocket"></i>Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft</li>
+          <li><i class="fa-li fa fa-rocket"></i>Fundierte Kenntnisse im Bereich IT/Neue Medien</li>
+          <li><i class="fa-li fa fa-rocket"></i>Gutes technisches Verständnis für aktuelle Webtechnologien</li>
+          <li><i class="fa-li fa fa-rocket"></i>Erfahrungen mit gängigen PMMethoden und -Tools</li>
+          <li><i class="fa-li fa fa-rocket"></i>Moderations- und Präsentationsfähigkeiten</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="spacer clearfix" ng-class="vm.job.category"></div>
+<div class="row sand">
+  <div class="sixteen columns clearfix">
+    <p class="paragraph">Als idealer Kandidat bist du fähig, zielgerichtete Strategien, Konzepte und Lösungen auf die individuellen Bedürfnisse unserer Kunden hin zu entwickeln und in allen Online-Fragen zu beraten. Du verfolgst den Markt sowie seine Trends mit grossem Interesse und verfügst über Know-how in Internettechnologien und digitalem Marketing.</p>
+    <p class="paragraph">Strukturiert und analytisch übernimmst du alle Aufgaben rund um die erfolgreiche Koordination und Leitung unserer spannenden und abwechslungsreichen Kundenprojekte. Gemeinsam mit deinem motivierten Team begleitest und gestaltest du die Projekte vom Anfang bis zum erfolgreichen Abschluss. Als zentraler Ansprechpartner betreust du unsere Bestandskunden in der Weiterentwicklung ihrer vorhandenen Internetangebote und Plattformen, oder Neukunden in der Beratung und Umsetzung ihrer digitalen Visionen. Du stehst intern wie extern für einen effizienten Ablauf des Projekts und verantwortest dabei die Angebotserstellung, die Erstellung und laufende Aktualisierung der Projektpläne, sowie ein einwandfreies Projektcontrolling. Dazu bist du ein echter Teamplayer und weisst, wie du dein Projektteam führst und motivierst. Die Einhaltung und aktive Weiterentwicklung von Projekt- und Qualitätsstandards runden dein vielseitiges Tätigkeitsspektrum ab.</p>
+    <p class="paragraph">Du bist bei uns richtig, wenn du Spass daran hast, neue Technologien vorwärts zu bringen und dabei sowohl klassische wie agile Vorgehensweisen (Scrum, Kanban, Agile/Lean UX etc.) anwendest. Es erwartet dich ein erfahrenes Schweizer Team, das seit anfangs 2016 in Bern aktiv ist.</p>
+  </div>
+  <br clear="all">
+</div>
+
+<div class="jobtile details">
+  <div class="one-third-box animate">
+    <div class="tile-content border-area-1" ng-class=vm.job.category>
+      <div class="center">
+        <h2>Standort</h2>
+        <i class="fa fa-globe fa-4" aria-hidden="true"></i>
+        <p>{{vm.job.location | join:', '}}</p>
+      </div>
+    </div>
+  </div>
+  <div class="one-third-box animate">
+    <div class="tile-content border-area-1" ng-class=vm.job.category>
+      <div class="center next">
+        <p>Download</p><i class="fa fa-file-pdf-o fa-2" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
+  <div class="one-third-box animate">
+    <div class="tile-content border-area-1" ng-class=vm.job.category>
+      <div class="center next">
+        <p>Jetzt bewerben</p><i class="fa fa-arrow-right fa-2" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="jobtile details">
+  <div class="one-third-box animate">
+    <div class="tile-content">
+      <img class="location" src="./assets/location01.jpg">
+    </div>
+  </div>
+  <div class="one-third-box animate">
+    <div class="tile-content">
+      <img class="location" src="./assets/location02.jpg">
+    </div>
+  </div>
+  <div class="one-third-box animate">
+    <div class="tile-content">
+      <img class="location" src="./assets/location03.jpg">
     </div>
   </div>
 </div>
