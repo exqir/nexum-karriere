@@ -1,3 +1,12 @@
+@mixin background-opacity($color, $opacity: 0.3) {
+    background: $color;
+    background: rgba($color, $opacity);
+}
+$consultant-color: #801d54;
+$creative-color: #DF002C;
+$technology-color: #0072B9;
+$finance-color: #4CBA3F;
+
 .category-filter-list {
   list-style: none;
 
@@ -23,10 +32,16 @@
         background-color: #000;
       }
       &.consultant {
-        background-color: #801d54;
+        background-color: $consultant-color;
       }
       &.creative {
-        background-color: #DF002C
+        background-color: $creative-color;
+      }
+      &.technology {
+        background-color: $technology-color;
+      }
+      &.finance {
+        background-color: $finance-color;
       }
     }
   }
@@ -45,8 +60,27 @@
   }
 }
 
+.tile-content.border-bottom-area-1 {
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+
+  &.consultant {
+    border-bottom-color: $consultant-color;
+  }
+  &.creative {
+    border-bottom-color: $creative-color;
+  }
+  &.technology {
+    border-bottom-color: $technology-color;
+  }
+  &.finance {
+    border-bottom-color: $finance-color;
+  }
+
+}
 
 .tile-content.border-area-1 {
+  background-color: #F4F2EF;
   position: relative;
 
   &:hover {
@@ -55,13 +89,16 @@
   }
 
   &.consultant {
-
-    border-top-color: #801d54
+    border-top-color: $consultant-color;
   }
-
   &.creative {
-
-    border-top-color: #DF002C
+    border-top-color: $creative-color;
+  }
+  &.technology {
+    border-top-color: $technology-color;
+  }
+  &.finance {
+    border-top-color: $finance-color;
   }
 
   & .details h2 + p {
@@ -71,7 +108,7 @@
 
   & .pdf-download {
     position: absolute;
-    background-color: #555555;
+    background-color: #000;
     color: #fff;
     bottom: 0;
     height: 2.5rem;
@@ -84,7 +121,7 @@
       border: none;
     }
 
-    & a[href],
+    & a,
     & i {
       color: #fff;
     }

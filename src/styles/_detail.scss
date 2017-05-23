@@ -6,10 +6,16 @@
   padding-bottom: 50px;
 
   &.consultant {
-    background-image: linear-gradient(to bottom, rgba(128, 29, 84, 0.8), rgba(128, 29, 84, 0.8)), url('../assets/office01.jpg');
+    background-image: linear-gradient(to bottom, rgba($consultant-color, 0.8), rgba($consultant-color, 0.8)), url('../assets/office01.jpg');
   }
   &.creative {
-    background-image: linear-gradient(to bottom, rgba(223, 0, 44, 0.7), rgba(223, 0, 44, 0.7)), url('../assets/office01.jpg');
+    background-image: linear-gradient(to bottom, rgba($creative-color, 0.7), rgba($creative-color, 0.7)), url('../assets/office01.jpg');
+  }
+  &.technology {
+    background-image: linear-gradient(to bottom, rgba($technology-color, 0.7), rgba($technology-color, 0.7)), url('../assets/office01.jpg');
+  }
+  &.finance {
+    background-image: linear-gradient(to bottom, rgba($finance-color, 0.7), rgba($finance-color, 0.7)), url('../assets/office01.jpg');
   }
 }
 
@@ -44,10 +50,16 @@
     background: #fff;
   }
   &.consultant {
-    background: #801d54;
+    background: $consultant-color;
   }
   &.creative {
-    background: #DF002C;
+    background: $creative-color;
+  }
+  &.technology {
+    background: $technology-color;
+  }
+  &.finance {
+    background: $finance-color;
   }
 }
 
@@ -90,11 +102,19 @@
     padding-bottom: 15px;
 
     &.consultant {
-      background: rgba(128, 29, 84, 0.9);
+      background: rgba($consultant-color, 0.9);
       color: #fff;
     }
     &.creative {
-      background: rgba(223, 0, 44, 0.9);
+      background: rgba($creative-color, 0.9);
+      color: #fff;
+    }
+    &.technology {
+      background: rgba($technology-color, 0.9);
+      color: #fff;
+    }
+    &.finance {
+      background: rgba($finance-color, 0.9);
       color: #fff;
     }
   }
@@ -136,5 +156,5 @@
 }
 
 .location {
-  
+
 }

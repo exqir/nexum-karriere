@@ -24,9 +24,9 @@
         </h2>
         <p>{{job.location | join:', '}}<br>
         </p>
-        <button class="pdf-download">
-          <i class="fa fa-job fa-file-pdf-o"></i>
-          <a href="https://www.nexum.de/downloads/2016-10-24_Stellenausschreibung_Consulting-PM_v01.pdf" target="_blank">Als PDF</a>
+        <button class="pdf-download" ng-click="vm.goToJob(job.slug)">
+          <a>Mehr Details gibt's hier</a>
+          <i class="fa fa-job fa-arrow-right"></i>
         </button>
       </div>
     </div>
@@ -53,9 +53,67 @@
         </h2>
         <p>{{job.location | join:', '}}<br>
         </p>
-        <button class="pdf-download">
-          <i class="fa fa-job fa-file-pdf-o"></i>
-          <a href="https://www.nexum.de/downloads/2016-10-24_Stellenausschreibung_Consulting-PM_v01.pdf" target="_blank">Als PDF</a>
+        <button class="pdf-download" ng-click="vm.goToJob(job.slug)">
+          <a>Mehr Details gibt's hier</a>
+          <i class="fa fa-job fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TECHNOLOGY HEAD -->
+
+  <div class="one-third-box animate" ng-hide="vm.isHidden('creative')">
+    <div class="service-item tile-area area-3">
+      <div class="details">
+        <h2 class="job-category">Technologie</h2>
+      </div>
+    </div>
+  </div>
+
+  <!-- TECHNOLOGY HEAD END -->
+
+  <div class="one-third-box animate" ng-hide="vm.isHidden('technology')" ng-repeat="job in vm.technologyJobs | filterBy: ['technology']:vm.selectedCategory">
+    <div class="tile-content border-area-1" ng-click="vm.goToJob(job.slug)" ng-class=job.category>
+      <div class="details">
+        <h2>
+          {{job.title}}
+          <br> {{job.gender}}
+        </h2>
+        <p>{{job.location | join:', '}}<br>
+        </p>
+        <button class="pdf-download" ng-click="vm.goToJob(job.slug)">
+          <a>Mehr Details gibt's hier</a>
+          <i class="fa fa-job fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- FINANCE HEAD -->
+
+  <div class="one-third-box animate" ng-hide="vm.isHidden('finance')">
+    <div class="service-item tile-area area-4">
+      <div class="details">
+        <h2 class="job-category">Finanzen & Administration</h2>
+      </div>
+    </div>
+  </div>
+
+  <!-- FINANCE HEAD END -->
+
+  <div class="one-third-box animate" ng-hide="vm.isHidden('finance')" ng-repeat="job in vm.financeJobs | filterBy: ['technology']:vm.selectedCategory">
+    <div class="tile-content border-area-1" ng-click="vm.goToJob(job.slug)" ng-class=job.category>
+      <div class="details">
+        <h2>
+          {{job.title}}
+          <br> {{job.gender}}
+        </h2>
+        <p>{{job.location | join:', '}}<br>
+        </p>
+        <button class="pdf-download" ng-click="vm.goToJob(job.slug)">
+          <a>Mehr Details gibt's hier</a>
+          <i class="fa fa-job fa-arrow-right"></i>
         </button>
       </div>
     </div>

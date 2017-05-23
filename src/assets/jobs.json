@@ -55,6 +55,20 @@
       "gender": "(m/w)",
       "category": "creative",
       "location": ["Köln"]
+    },
+    {
+      "title": "Interaktionsentwickler",
+      "slug": "interaktionsentwickler",
+      "gender": "(m/w)",
+      "category": "technology",
+      "location": ["Köln","Hamburg","Bern"]
+    },
+    {
+      "title": "IT Systemadministrator",
+      "slug": "it-systemadministrator",
+      "gender": "(m/w)",
+      "category": "finance",
+      "location": ["Köln"]
     }
   ]
 }

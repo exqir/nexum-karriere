@@ -20,6 +20,8 @@
       @jobs = []
       @consultantJobs = []
       @creativeJobs = []
+      @technologyJobs = []
+      @financeJobs = []
       @selectedCategory = []
       @show = ['all']
       @isHidden = isHidden
@@ -37,6 +39,10 @@
           job.category.indexOf('consultant') != -1
         @creativeJobs = data.filter (job) ->
           job.category.indexOf('creative') != -1
+        @technologyJobs = data.filter (job) ->
+          job.category.indexOf('technology') != -1
+        @financeJobs = data.filter (job) ->
+          job.category.indexOf('finance') != -1
 
     toggle = (category) =>
       if category.indexOf('all') != -1
