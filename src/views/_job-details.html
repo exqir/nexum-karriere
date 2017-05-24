@@ -31,12 +31,9 @@ Otto, PENNY sowie Sony</p>
         <h2>Was du mitbringst</h2>
         <div class="spacer white clearfix"></div>
         <ul class="abilities fa-ul">
-          <li><i class="fa-li fa fa-check"></i>Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung</li>
-          <li><i class="fa-li fa fa-check"></i>Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft</li>
-          <li><i class="fa-li fa fa-check"></i>Fundierte Kenntnisse im Bereich IT/Neue Medien</li>
-          <li><i class="fa-li fa fa-check"></i>Gutes technisches Verständnis für aktuelle Webtechnologien</li>
-          <li><i class="fa-li fa fa-check"></i>Erfahrungen mit gängigen PMMethoden und -Tools</li>
-          <li><i class="fa-li fa fa-check"></i>Moderations- und Präsentationsfähigkeiten</li>
+          <li ng-repeat="need in vm.job.needs">
+            <i class="fa-li fa fa-check"></i>{{need}}
+          </li>
         </ul>
       </div>
     </div>
@@ -47,12 +44,9 @@ Otto, PENNY sowie Sony</p>
         <h2>Was du machen wirst</h2>
         <div class="spacer white clearfix"></div>
         <ul class="abilities fa-ul">
-          <li><i class="fa-li fa fa-rocket"></i>Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung</li>
-          <li><i class="fa-li fa fa-rocket"></i>Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft</li>
-          <li><i class="fa-li fa fa-rocket"></i>Fundierte Kenntnisse im Bereich IT/Neue Medien</li>
-          <li><i class="fa-li fa fa-rocket"></i>Gutes technisches Verständnis für aktuelle Webtechnologien</li>
-          <li><i class="fa-li fa fa-rocket"></i>Erfahrungen mit gängigen PMMethoden und -Tools</li>
-          <li><i class="fa-li fa fa-rocket"></i>Moderations- und Präsentationsfähigkeiten</li>
+          <li ng-repeat="todo in vm.job.todos">
+            <i class="fa-li fa fa-rocket"></i>{{todo}}
+          </li>
         </ul>
       </div>
     </div>

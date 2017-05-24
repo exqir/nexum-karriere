@@ -52,6 +52,8 @@ $finance-color: #4CBA3F;
   list-style: none;
   float: right;
   margin-right: .5rem;
+  position: relative;
+  top: -5px;
 
   & li {
     display: inline-block;
@@ -84,6 +86,8 @@ $finance-color: #4CBA3F;
     &.basel,
     &.bern {
       filter: opacity(50%);
+      position: relative;
+      top: 5px;
 
       &:hover,
       &.active {

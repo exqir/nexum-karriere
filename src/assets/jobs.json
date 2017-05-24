@@ -5,70 +5,479 @@
       "slug": "consultant-project-manager",
       "gender": "(m/w)",
       "category": "consultant",
-      "location": ["Köln","Hamburg"]
+      "location": ["Köln","Hamburg"],
+      "needs": [
+        "Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung",
+        "Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft ",
+        "Fundierte Kenntnisse im Bereich IT/Neue Medien",
+        "Gutes technisches Verständnis für aktuelle Webtechnologien",
+        "Erfahrungen mit gängigen PM-Methoden und -Tools",
+        "Moderations- und Präsentationsfähigkeiten",
+        "Verbindliches Auftreten",
+        "Kommunikations- und Teamfähigkeit",
+        "Konfliktfähigkeit",
+        "Sehr gute deutsche Rechtschreibung sowie gute Englischkenntnisse in Wort und Schrift"
+      ],
+      "todos": [
+        "Spannende Online-Projekte selbständig leiten und in Quality, Time und Budget umsetzen",
+        "In Pitch-Situationen mitwirken",
+        "Passende Projektvorgehen und -methoden definieren und realisieren",
+        "Klassische als auch agile Vorgehensmodelle sicher anwenden",
+        "Im direkten Kundenkontakt stehen",
+        "Eng und produktiv mit Experten aus unseren Unternehmensbereichen zusammenarbeiten"
+      ]
     },
     {
       "title": "Berater/in mit dem Schwerpunkt Testing und Personalisierung",
       "slug": "consultant-testing-personas",
       "gender": "(m/w)",
       "category": "consultant",
-      "location": ["Bern"]
+      "location": ["Bern"],
+      "needs": [
+        "Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung",
+        "Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft ",
+        "Fundierte Kenntnisse im Bereich IT/Neue Medien",
+        "Gutes technisches Verständnis für aktuelle Webtechnologien",
+        "Erfahrungen mit gängigen PM-Methoden und -Tools",
+        "Moderations- und Präsentationsfähigkeiten",
+        "Verbindliches Auftreten",
+        "Kommunikations- und Teamfähigkeit",
+        "Konfliktfähigkeit",
+        "Sehr gute deutsche Rechtschreibung sowie gute Englischkenntnisse in Wort und Schrift"
+      ],
+      "todos": [
+        "Spannende Online-Projekte selbständig leiten und in Quality, Time und Budget umsetzen",
+        "In Pitch-Situationen mitwirken",
+        "Passende Projektvorgehen und -methoden definieren und realisieren",
+        "Klassische als auch agile Vorgehensmodelle sicher anwenden",
+        "Im direkten Kundenkontakt stehen",
+        "Eng und produktiv mit Experten aus unseren Unternehmensbereichen zusammenarbeiten"
+      ]
     },
     {
-      "title": "Consultant/Project Manager",
-      "slug": "consultant-project-manager",
+      "title": "Senior Projektmanager / Berater Schwerpunkt eCommerce",
+      "slug": "senior-project-manager-e-commerce",
       "gender": "(m/w)",
       "category": "consultant",
-      "location": ["Köln","Hamburg"]
+      "location": ["Köln"],
+      "needs": [
+        "Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung",
+        "Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft ",
+        "Fundierte Kenntnisse im Bereich IT/Neue Medien",
+        "Gutes technisches Verständnis für aktuelle Webtechnologien",
+        "Erfahrungen mit gängigen PM-Methoden und -Tools",
+        "Moderations- und Präsentationsfähigkeiten",
+        "Verbindliches Auftreten",
+        "Kommunikations- und Teamfähigkeit",
+        "Konfliktfähigkeit",
+        "Sehr gute deutsche Rechtschreibung sowie gute Englischkenntnisse in Wort und Schrift"
+      ],
+      "todos": [
+        "Spannende Online-Projekte selbständig leiten und in Quality, Time und Budget umsetzen",
+        "In Pitch-Situationen mitwirken",
+        "Passende Projektvorgehen und -methoden definieren und realisieren",
+        "Klassische als auch agile Vorgehensmodelle sicher anwenden",
+        "Im direkten Kundenkontakt stehen",
+        "Eng und produktiv mit Experten aus unseren Unternehmensbereichen zusammenarbeiten"
+      ]
     },
     {
-      "title": "Berater/in mit dem Schwerpunkt Testing und Personalisierung",
-      "slug": "consultant-testing-personas",
+      "title": "Technischer Senior Berater Schwerpunkt Testing und Personalisierung",
+      "slug": "technical-senior-consultant-testing",
       "gender": "(m/w)",
       "category": "consultant",
-      "location": ["Bern"]
+      "location": ["Köln", "Hamburg"],
+      "needs": [
+        "Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung",
+        "Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft ",
+        "Fundierte Kenntnisse im Bereich IT/Neue Medien",
+        "Gutes technisches Verständnis für aktuelle Webtechnologien",
+        "Erfahrungen mit gängigen PM-Methoden und -Tools",
+        "Moderations- und Präsentationsfähigkeiten",
+        "Verbindliches Auftreten",
+        "Kommunikations- und Teamfähigkeit",
+        "Konfliktfähigkeit",
+        "Sehr gute deutsche Rechtschreibung sowie gute Englischkenntnisse in Wort und Schrift"
+      ],
+      "todos": [
+        "Spannende Online-Projekte selbständig leiten und in Quality, Time und Budget umsetzen",
+        "In Pitch-Situationen mitwirken",
+        "Passende Projektvorgehen und -methoden definieren und realisieren",
+        "Klassische als auch agile Vorgehensmodelle sicher anwenden",
+        "Im direkten Kundenkontakt stehen",
+        "Eng und produktiv mit Experten aus unseren Unternehmensbereichen zusammenarbeiten"
+      ]
     },
     {
-      "title": "Senior Kampagnenkonzepter Digital",
-      "slug": "creative-senior-konzepter",
+      "title": "Technischer Senior Berater",
+      "slug": "technical-senior-consultant",
       "gender": "(m/w)",
-      "category": "creative",
-      "location": ["Köln"]
+      "category": "consultant",
+      "location": ["Hamburg"],
+      "needs": [
+        "Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung",
+        "Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft ",
+        "Fundierte Kenntnisse im Bereich IT/Neue Medien",
+        "Gutes technisches Verständnis für aktuelle Webtechnologien",
+        "Erfahrungen mit gängigen PM-Methoden und -Tools",
+        "Moderations- und Präsentationsfähigkeiten",
+        "Verbindliches Auftreten",
+        "Kommunikations- und Teamfähigkeit",
+        "Konfliktfähigkeit",
+        "Sehr gute deutsche Rechtschreibung sowie gute Englischkenntnisse in Wort und Schrift"
+      ],
+      "todos": [
+        "Spannende Online-Projekte selbständig leiten und in Quality, Time und Budget umsetzen",
+        "In Pitch-Situationen mitwirken",
+        "Passende Projektvorgehen und -methoden definieren und realisieren",
+        "Klassische als auch agile Vorgehensmodelle sicher anwenden",
+        "Im direkten Kundenkontakt stehen",
+        "Eng und produktiv mit Experten aus unseren Unternehmensbereichen zusammenarbeiten"
+      ]
+    },
+    {
+      "title": "Praktikant Consulting/Project Management ",
+      "slug": "intern-consultant",
+      "gender": "(m/w)",
+      "category": "consultant",
+      "location": ["Bern"],
+      "needs": [
+        "Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung",
+        "Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft ",
+        "Fundierte Kenntnisse im Bereich IT/Neue Medien",
+        "Gutes technisches Verständnis für aktuelle Webtechnologien",
+        "Erfahrungen mit gängigen PM-Methoden und -Tools",
+        "Moderations- und Präsentationsfähigkeiten",
+        "Verbindliches Auftreten",
+        "Kommunikations- und Teamfähigkeit",
+        "Konfliktfähigkeit",
+        "Sehr gute deutsche Rechtschreibung sowie gute Englischkenntnisse in Wort und Schrift"
+      ],
+      "todos": [
+        "Spannende Online-Projekte selbständig leiten und in Quality, Time und Budget umsetzen",
+        "In Pitch-Situationen mitwirken",
+        "Passende Projektvorgehen und -methoden definieren und realisieren",
+        "Klassische als auch agile Vorgehensmodelle sicher anwenden",
+        "Im direkten Kundenkontakt stehen",
+        "Eng und produktiv mit Experten aus unseren Unternehmensbereichen zusammenarbeiten"
+      ]
+    },
+    {
+      "title": "Senior Informationsarchitekt in Vollzeit oder Teilzeit",
+      "slug": "senior-information-architect",
+      "gender": "(m/w)",
+      "category": "consultant",
+      "location": ["Köln"],
+      "needs": [
+        "Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung",
+        "Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft ",
+        "Fundierte Kenntnisse im Bereich IT/Neue Medien",
+        "Gutes technisches Verständnis für aktuelle Webtechnologien",
+        "Erfahrungen mit gängigen PM-Methoden und -Tools",
+        "Moderations- und Präsentationsfähigkeiten",
+        "Verbindliches Auftreten",
+        "Kommunikations- und Teamfähigkeit",
+        "Konfliktfähigkeit",
+        "Sehr gute deutsche Rechtschreibung sowie gute Englischkenntnisse in Wort und Schrift"
+      ],
+      "todos": [
+        "Spannende Online-Projekte selbständig leiten und in Quality, Time und Budget umsetzen",
+        "In Pitch-Situationen mitwirken",
+        "Passende Projektvorgehen und -methoden definieren und realisieren",
+        "Klassische als auch agile Vorgehensmodelle sicher anwenden",
+        "Im direkten Kundenkontakt stehen",
+        "Eng und produktiv mit Experten aus unseren Unternehmensbereichen zusammenarbeiten"
+      ]
+    },
+    {
+      "title": "Content-Manager",
+      "slug": "content-manager",
+      "gender": "(m/w)",
+      "category": "consultant",
+      "location": ["Köln"],
+      "needs": [
+        "Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung",
+        "Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft ",
+        "Fundierte Kenntnisse im Bereich IT/Neue Medien",
+        "Gutes technisches Verständnis für aktuelle Webtechnologien",
+        "Erfahrungen mit gängigen PM-Methoden und -Tools",
+        "Moderations- und Präsentationsfähigkeiten",
+        "Verbindliches Auftreten",
+        "Kommunikations- und Teamfähigkeit",
+        "Konfliktfähigkeit",
+        "Sehr gute deutsche Rechtschreibung sowie gute Englischkenntnisse in Wort und Schrift"
+      ],
+      "todos": [
+        "Spannende Online-Projekte selbständig leiten und in Quality, Time und Budget umsetzen",
+        "In Pitch-Situationen mitwirken",
+        "Passende Projektvorgehen und -methoden definieren und realisieren",
+        "Klassische als auch agile Vorgehensmodelle sicher anwenden",
+        "Im direkten Kundenkontakt stehen",
+        "Eng und produktiv mit Experten aus unseren Unternehmensbereichen zusammenarbeiten"
+      ]
+    },
+    {
+      "title": "(Junior) Berater mit den Schwerpunkten Digitalisierung und Strategie",
+      "slug": "junior-consultant-strategy",
+      "gender": "(m/w)",
+      "category": "consultant",
+      "location": ["Hamburg"],
+      "needs": [
+        "Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung",
+        "Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft ",
+        "Fundierte Kenntnisse im Bereich IT/Neue Medien",
+        "Gutes technisches Verständnis für aktuelle Webtechnologien",
+        "Erfahrungen mit gängigen PM-Methoden und -Tools",
+        "Moderations- und Präsentationsfähigkeiten",
+        "Verbindliches Auftreten",
+        "Kommunikations- und Teamfähigkeit",
+        "Konfliktfähigkeit",
+        "Sehr gute deutsche Rechtschreibung sowie gute Englischkenntnisse in Wort und Schrift"
+      ],
+      "todos": [
+        "Spannende Online-Projekte selbständig leiten und in Quality, Time und Budget umsetzen",
+        "In Pitch-Situationen mitwirken",
+        "Passende Projektvorgehen und -methoden definieren und realisieren",
+        "Klassische als auch agile Vorgehensmodelle sicher anwenden",
+        "Im direkten Kundenkontakt stehen",
+        "Eng und produktiv mit Experten aus unseren Unternehmensbereichen zusammenarbeiten"
+      ]
     },
     {
       "title": "Senior Art Director Digital",
       "slug": "creative-senior-art-director",
       "gender": "(m/w)",
       "category": "creative",
-      "location": ["Köln"]
+      "location": ["Köln"],
+      "needs": [
+        "Ein abgeschlossenes Studium im Bereich Design, Gestaltung oder Kommunikation",
+        "Mindestens fünf bis sieben Jahre Berufserfahrung in unserem Bereich, idealerweise in einer Online-Agentur",
+        "Großes Interesse an digitalen Themen und Trends, Leidenschaft und Willensstärke, um die beste Lösung durchzusetzen",
+        "Ausgeprägtes technologisches Verständnis (z.B. Responsive Design, Schrift-Verwendung / CSS3 / HTML5, WebGL, Bewegtbild, etc.)"
+      ],
+      "todos": [
+        "Menschen für deine Ideen und Designs begeistern und sie sicher vor Kunden und Kollegen präsentieren",
+        "Verantwortung übernehmen und klar und verbindlich kommunizieren",
+        "Deine Design-Kollegen fachlich anleiten und mit ihnen im Team arbeiten",
+        "Inspirieren und Wissensaustausch fördern",
+        "Strukturiert vorgehen, Aufgaben planen, aufteilen und weitergeben"
+      ]
     },
     {
       "title": "Senior Kampagnenkonzepter Digital",
       "slug": "creative-senior-konzepter",
       "gender": "(m/w)",
       "category": "creative",
-      "location": ["Köln"]
+      "location": ["Köln"],
+      "needs": [
+        "Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung",
+        "Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft ",
+        "Fundierte Kenntnisse im Bereich IT/Neue Medien",
+        "Gutes technisches Verständnis für aktuelle Webtechnologien",
+        "Erfahrungen mit gängigen PM-Methoden und -Tools",
+        "Moderations- und Präsentationsfähigkeiten",
+        "Verbindliches Auftreten",
+        "Kommunikations- und Teamfähigkeit",
+        "Konfliktfähigkeit",
+        "Sehr gute deutsche Rechtschreibung sowie gute Englischkenntnisse in Wort und Schrift"
+      ],
+      "todos": [
+        "Spannende Online-Projekte selbständig leiten und in Quality, Time und Budget umsetzen",
+        "In Pitch-Situationen mitwirken",
+        "Passende Projektvorgehen und -methoden definieren und realisieren",
+        "Klassische als auch agile Vorgehensmodelle sicher anwenden",
+        "Im direkten Kundenkontakt stehen",
+        "Eng und produktiv mit Experten aus unseren Unternehmensbereichen zusammenarbeiten"
+      ]
     },
     {
-      "title": "Senior Art Director Digital",
-      "slug": "creative-senior-art-director",
+      "title": "Mediengestalter Digital",
+      "slug": "media-creator-digital",
       "gender": "(m/w)",
       "category": "creative",
-      "location": ["Köln"]
+      "location": ["Köln"],
+      "needs": [
+        "Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung",
+        "Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft ",
+        "Fundierte Kenntnisse im Bereich IT/Neue Medien",
+        "Gutes technisches Verständnis für aktuelle Webtechnologien",
+        "Erfahrungen mit gängigen PM-Methoden und -Tools",
+        "Moderations- und Präsentationsfähigkeiten",
+        "Verbindliches Auftreten",
+        "Kommunikations- und Teamfähigkeit",
+        "Konfliktfähigkeit",
+        "Sehr gute deutsche Rechtschreibung sowie gute Englischkenntnisse in Wort und Schrift"
+      ],
+      "todos": [
+        "Spannende Online-Projekte selbständig leiten und in Quality, Time und Budget umsetzen",
+        "In Pitch-Situationen mitwirken",
+        "Passende Projektvorgehen und -methoden definieren und realisieren",
+        "Klassische als auch agile Vorgehensmodelle sicher anwenden",
+        "Im direkten Kundenkontakt stehen",
+        "Eng und produktiv mit Experten aus unseren Unternehmensbereichen zusammenarbeiten"
+      ]
     },
     {
       "title": "Interaktionsentwickler",
       "slug": "interaktionsentwickler",
       "gender": "(m/w)",
       "category": "technology",
-      "location": ["Köln","Hamburg","Bern"]
+      "location": ["Köln","Hamburg","Bern"],
+      "needs": [
+        "Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung",
+        "Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft ",
+        "Fundierte Kenntnisse im Bereich IT/Neue Medien",
+        "Gutes technisches Verständnis für aktuelle Webtechnologien",
+        "Erfahrungen mit gängigen PM-Methoden und -Tools",
+        "Moderations- und Präsentationsfähigkeiten",
+        "Verbindliches Auftreten",
+        "Kommunikations- und Teamfähigkeit",
+        "Konfliktfähigkeit",
+        "Sehr gute deutsche Rechtschreibung sowie gute Englischkenntnisse in Wort und Schrift"
+      ],
+      "todos": [
+        "Spannende Online-Projekte selbständig leiten und in Quality, Time und Budget umsetzen",
+        "In Pitch-Situationen mitwirken",
+        "Passende Projektvorgehen und -methoden definieren und realisieren",
+        "Klassische als auch agile Vorgehensmodelle sicher anwenden",
+        "Im direkten Kundenkontakt stehen",
+        "Eng und produktiv mit Experten aus unseren Unternehmensbereichen zusammenarbeiten"
+      ]
+    },
+    {
+      "title": "Java-Entwickler",
+      "slug": "java-developer",
+      "gender": "(m/w)",
+      "category": "technology",
+      "location": ["Köln"],
+      "needs": [
+        "Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung",
+        "Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft ",
+        "Fundierte Kenntnisse im Bereich IT/Neue Medien",
+        "Gutes technisches Verständnis für aktuelle Webtechnologien",
+        "Erfahrungen mit gängigen PM-Methoden und -Tools",
+        "Moderations- und Präsentationsfähigkeiten",
+        "Verbindliches Auftreten",
+        "Kommunikations- und Teamfähigkeit",
+        "Konfliktfähigkeit",
+        "Sehr gute deutsche Rechtschreibung sowie gute Englischkenntnisse in Wort und Schrift"
+      ],
+      "todos": [
+        "Spannende Online-Projekte selbständig leiten und in Quality, Time und Budget umsetzen",
+        "In Pitch-Situationen mitwirken",
+        "Passende Projektvorgehen und -methoden definieren und realisieren",
+        "Klassische als auch agile Vorgehensmodelle sicher anwenden",
+        "Im direkten Kundenkontakt stehen",
+        "Eng und produktiv mit Experten aus unseren Unternehmensbereichen zusammenarbeiten"
+      ]
+    },
+    {
+      "title": "Senior Drupal Entwickler",
+      "slug": "senior-drupal-developer",
+      "gender": "(m/w)",
+      "category": "technology",
+      "location": ["Köln"],
+      "needs": [
+        "Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung",
+        "Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft ",
+        "Fundierte Kenntnisse im Bereich IT/Neue Medien",
+        "Gutes technisches Verständnis für aktuelle Webtechnologien",
+        "Erfahrungen mit gängigen PM-Methoden und -Tools",
+        "Moderations- und Präsentationsfähigkeiten",
+        "Verbindliches Auftreten",
+        "Kommunikations- und Teamfähigkeit",
+        "Konfliktfähigkeit",
+        "Sehr gute deutsche Rechtschreibung sowie gute Englischkenntnisse in Wort und Schrift"
+      ],
+      "todos": [
+        "Spannende Online-Projekte selbständig leiten und in Quality, Time und Budget umsetzen",
+        "In Pitch-Situationen mitwirken",
+        "Passende Projektvorgehen und -methoden definieren und realisieren",
+        "Klassische als auch agile Vorgehensmodelle sicher anwenden",
+        "Im direkten Kundenkontakt stehen",
+        "Eng und produktiv mit Experten aus unseren Unternehmensbereichen zusammenarbeiten"
+      ]
+    },
+    {
+      "title": "E-Mail Developer / Producer",
+      "slug": "e-mail-developer",
+      "gender": "(m/w)",
+      "category": "technology",
+      "location": ["Köln"],
+      "needs": [
+        "Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung",
+        "Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft ",
+        "Fundierte Kenntnisse im Bereich IT/Neue Medien",
+        "Gutes technisches Verständnis für aktuelle Webtechnologien",
+        "Erfahrungen mit gängigen PM-Methoden und -Tools",
+        "Moderations- und Präsentationsfähigkeiten",
+        "Verbindliches Auftreten",
+        "Kommunikations- und Teamfähigkeit",
+        "Konfliktfähigkeit",
+        "Sehr gute deutsche Rechtschreibung sowie gute Englischkenntnisse in Wort und Schrift"
+      ],
+      "todos": [
+        "Spannende Online-Projekte selbständig leiten und in Quality, Time und Budget umsetzen",
+        "In Pitch-Situationen mitwirken",
+        "Passende Projektvorgehen und -methoden definieren und realisieren",
+        "Klassische als auch agile Vorgehensmodelle sicher anwenden",
+        "Im direkten Kundenkontakt stehen",
+        "Eng und produktiv mit Experten aus unseren Unternehmensbereichen zusammenarbeiten"
+      ]
     },
     {
       "title": "IT Systemadministrator",
       "slug": "it-systemadministrator",
       "gender": "(m/w)",
       "category": "finance",
-      "location": ["Köln"]
+      "location": ["Köln"],
+      "needs": [
+        "Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung",
+        "Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft ",
+        "Fundierte Kenntnisse im Bereich IT/Neue Medien",
+        "Gutes technisches Verständnis für aktuelle Webtechnologien",
+        "Erfahrungen mit gängigen PM-Methoden und -Tools",
+        "Moderations- und Präsentationsfähigkeiten",
+        "Verbindliches Auftreten",
+        "Kommunikations- und Teamfähigkeit",
+        "Konfliktfähigkeit",
+        "Sehr gute deutsche Rechtschreibung sowie gute Englischkenntnisse in Wort und Schrift"
+      ],
+      "todos": [
+        "Spannende Online-Projekte selbständig leiten und in Quality, Time und Budget umsetzen",
+        "In Pitch-Situationen mitwirken",
+        "Passende Projektvorgehen und -methoden definieren und realisieren",
+        "Klassische als auch agile Vorgehensmodelle sicher anwenden",
+        "Im direkten Kundenkontakt stehen",
+        "Eng und produktiv mit Experten aus unseren Unternehmensbereichen zusammenarbeiten"
+      ]
+    },
+    {
+      "title": "Controller",
+      "slug": "controller",
+      "gender": "(m/w)",
+      "category": "finance",
+      "location": ["Köln"],
+      "needs": [
+        "Abgeschlossenes technisches oder kaufmännisches Studium oder adäquate Ausbildung",
+        "Mind. 3-5 Jahre Berufserfahrung im Agenturgeschäft ",
+        "Fundierte Kenntnisse im Bereich IT/Neue Medien",
+        "Gutes technisches Verständnis für aktuelle Webtechnologien",
+        "Erfahrungen mit gängigen PM-Methoden und -Tools",
+        "Moderations- und Präsentationsfähigkeiten",
+        "Verbindliches Auftreten",
+        "Kommunikations- und Teamfähigkeit",
+        "Konfliktfähigkeit",
+        "Sehr gute deutsche Rechtschreibung sowie gute Englischkenntnisse in Wort und Schrift"
+      ],
+      "todos": [
+        "Spannende Online-Projekte selbständig leiten und in Quality, Time und Budget umsetzen",
+        "In Pitch-Situationen mitwirken",
+        "Passende Projektvorgehen und -methoden definieren und realisieren",
+        "Klassische als auch agile Vorgehensmodelle sicher anwenden",
+        "Im direkten Kundenkontakt stehen",
+        "Eng und produktiv mit Experten aus unseren Unternehmensbereichen zusammenarbeiten"
+      ]
     }
   ]
 }
