@@ -12,12 +12,12 @@
       <li><div class="job-category finance" ng-class="{'active': vm.contains('finance', vm.category)}" ng-click="vm.toggle('finance', vm.category)">Finanzen & Administration</div></li>
     </ul>
     <ul class="location-filter-list">
-      <li><div class="job-location all" ng-class="{'active': vm.contains('all', vm.location)}" ng-click="vm.toggle('all', vm.location)">Alle</div></li>
-      <li><div class="job-location cologne" ng-class="{'active': vm.contains('cologne', vm.location)}" ng-click="vm.toggle('cologne', vm.location)"></div></li>
-      <li><div class="job-location hamburg" ng-class="{'active': vm.contains('hamburg', vm.location)}" ng-click="vm.toggle('hamburg', vm.location)"></div></li>
-      <li><div class="job-location munich" ng-class="{'active': vm.contains('munich', vm.location)}" ng-click="vm.toggle('munich', vm.location)"></div></li>
-      <li><div class="job-location basel" ng-class="{'active': vm.contains('basel', vm.location)}" ng-click="vm.toggle('basel', vm.location)"></div></li>
-      <li><div class="job-location bern" ng-class="{'active': vm.contains('bern', vm.location)}" ng-click="vm.toggle('bern', vm.location)"></div></li>
+      <li><div class="job-location all" ng-class="{'active': vm.contains('all', vm.locations)}" ng-click="vm.toggle('all', vm.locations)">Alle</div></li>
+      <li><div class="job-location cologne" ng-class="{'active': vm.contains('Köln', vm.locations)}" ng-click="vm.toggle('Köln', vm.locations)"></div></li>
+      <li><div class="job-location hamburg" ng-class="{'active': vm.contains('Hamburg', vm.locations)}" ng-click="vm.toggle('Hamburg', vm.locations)"></div></li>
+      <li><div class="job-location munich" ng-class="{'active': vm.contains('München', vm.locations)}" ng-click="vm.toggle('München', vm.locations)"></div></li>
+      <li><div class="job-location basel" ng-class="{'active': vm.contains('Basel', vm.locations)}" ng-click="vm.toggle('Basel', vm.locations)"></div></li>
+      <li><div class="job-location bern" ng-class="{'active': vm.contains('Bern', vm.locations)}" ng-click="vm.toggle('Bern', vm.locations)"></div></li>
     </ul>
   </div>
   <br clear="all">

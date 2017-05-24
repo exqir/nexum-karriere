@@ -24,11 +24,12 @@
       @financeJobs = []
 
       @category = ['all']
-      @location = ['all']
+      @locations = ['all']
       @isHidden = isHidden
       @toggle = toggle
       @contains = contains
       @goToJob = goToJob
+      @locationsFilter = locationFilter
 
       getJobs()
 
@@ -48,7 +49,7 @@
     toggle = (category, selection) =>
       if category.indexOf('all') != -1
         if !contains(category, selection)
-          selection = []
+          selection.splice(0, selection.length)
           selection.push(category)
       else
         _all = selection.indexOf('all')
@@ -67,6 +68,13 @@
 
     goToJob = (slug) =>
       $location.path(slug)
+
+    locationFilter = (element) =>
+      _bool = false
+      for _location in element.location
+        do (_location) =>
+          _bool = true if !isHidden(_location, @locations)
+      return _bool
 
     init()
     return

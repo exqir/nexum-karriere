@@ -15,6 +15,11 @@
       controller: 'jobDetailsCtrl',
       controllerAs: 'vm'
       })
+    .when('/:title/apply', {
+      templateUrl: 'views/_job-apply.html',
+      controller: 'jobApplyCtrl',
+      controllerAs: 'vm'
+      })
     .otherwise({redirectTo: '/'})
   ])
 )()

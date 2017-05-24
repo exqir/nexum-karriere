@@ -1,5 +1,5 @@
 ( ->
-  jobDetailsCtrl = (
+  jobApplyCtrl = (
     $scope,
     $filter,
     $injector,
@@ -7,7 +7,7 @@
     $location,
     jobService
   ) ->
-    jobDetailsCtrl.$inject = [
+    jobApplyCtrl.$inject = [
       '$scope',
       '$filter',
       '$injector',
@@ -18,7 +18,6 @@
 
     init = () =>
       @job = {}
-      @applyToJob = applyToJob
 
       getJob()
 
@@ -33,13 +32,10 @@
               console.log job
               return
 
-    applyToJob = (slug) =>
-      $location.path(slug + '/apply')
-
     init()
     return
 
   angular
   .module('nexum-karrier')
-  .controller('jobDetailsCtrl', jobDetailsCtrl)
+  .controller('jobApplyCtrl', jobApplyCtrl)
 )()

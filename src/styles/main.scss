@@ -85,8 +85,9 @@ $finance-color: #4CBA3F;
     &.bern {
       filter: opacity(50%);
 
-      &:hover {
-            filter: opacity(100%);
+      &:hover,
+      &.active {
+        filter: opacity(100%);
       }
     }
 
@@ -191,3 +192,4 @@ $finance-color: #4CBA3F;
 
 @import "font-awesome/font-awesome";
 @import "detail";
+@import "apply";

@@ -25,34 +25,6 @@ Otto, PENNY sowie Sony</p>
 <div class="spacer margin clearfix"></div>
 
 <div class="jobtile details">
-  <!-- <div class="one-third-box animate">
-    <div class="tile-content border-area-1" ng-class=vm.job.category>
-      <div class="center">
-        <h2>Standort</h2>
-        <i class="fa fa-globe fa-4" aria-hidden="true"></i>
-        <p>{{vm.job.location | join:', '}}</p>
-      </div>
-    </div>
-  </div>
-  <div class="one-third-box animate">
-    <div class="tile-content border-area-1" ng-class=vm.job.category>
-      <div class="center">
-        <h2>Starttermin</h2>
-        <i class="fa fa-calendar-o fa-4" aria-hidden="true"></i>
-        <p>August 2017</p>
-      </div>
-    </div>
-  </div>
-  <div class="one-third-box animate">
-    <div class="tile-content border-area-1" ng-class=vm.job.category>
-      <div class="center">
-        <h2>Ausbildung</h2>
-        <i class="fa fa-graduation-cap fa-4" aria-hidden="true"></i>
-        <p>Informatik</p>
-      </div>
-    </div>
-  </div> -->
-
   <div class="eight columns half margin">
     <div class="tile-content" ng-class="vm.job.category">
       <div>
@@ -113,7 +85,7 @@ Otto, PENNY sowie Sony</p>
     </div>
   </div>
   <div class="one-third-box animate">
-    <div class="tile-content border-bottom-area-1" ng-class=vm.job.category>
+    <div class="tile-content border-bottom-area-1" ng-class=vm.job.category ng-click="vm.applyToJob(vm.job.slug)">
       <div class="center next">
         <p>Jetzt bewerben</p><i class="fa fa-arrow-right fa-2" aria-hidden="true"></i>
       </div>

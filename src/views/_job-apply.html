@@ -1,0 +1,51 @@
+<div class="row sand hero-image" ng-class="vm.job.category">
+  <div class="sixteen columns clearfix ">
+    <div class="job-title">
+      <h2>{{vm.job.title}}<span>{{vm.job.gender}}</span></h2>
+      <p class="paragraph">
+        Hey! Wir freuen uns, dass du dich für die Stelle als {{vm.job.title}} interessierst.</br>
+        Wir brauchen jetzt nur noch die folgenden Infos von dir.
+      </p>
+    </div>
+  </div>
+</div>
+<div class="spacer margin clearfix" ng-class="vm.job.category"></div>
+
+<div class="row sand">
+  <div class="sixteen columns clearfix">
+    <h1>Was wir von dir brauchen.</h1>
+    <form class="contact-form-standard">
+      <input name="name" type="text" placeholder="Deinen Name">
+      <input name="email" type="email" placeholder="Deine E-Mail-Adresse">
+
+      <div class="application-documents">
+        <div class="drop-here">
+          <i class="fa fa-file-word-o fa-2"></i>
+          <h2>Anschreiben</h2>
+          <p>
+            Datei zum Anhängen ablegen oder <a>auswählen</a>
+          </p>
+        </div>
+        <div class="drop-here">
+          <i class="fa fa-file-text-o fa-2"></i>
+          <h2>Lebenslauf</h2>
+          <p>
+            Datei zum Anhängen ablegen oder <a>auswählen</a>
+          </p>
+        </div>
+        <div class="drop-here">
+          <i class="fa fa-file-image-o fa-2"></i>
+          <h2>Arbeitsproben</h2>
+          <p>
+            Dateien zum Anhängen ablegen oder <a>auswählen</a>
+          </p>
+        </div>
+      </div>
+
+      <input class="read-more-btn" id="submit" name="submit" type="submit" value="Und los!">
+
+    </form>
+  </div>
+  <br clear="all">
+</div>
+<div class="spacer margin clearfix"></div>
