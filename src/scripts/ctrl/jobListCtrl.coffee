@@ -22,8 +22,9 @@
       @creativeJobs = []
       @technologyJobs = []
       @financeJobs = []
-      @selectedCategory = []
-      @show = ['all']
+
+      @category = ['all']
+      @location = ['all']
       @isHidden = isHidden
       @toggle = toggle
       @contains = contains
@@ -44,25 +45,25 @@
         @financeJobs = data.filter (job) ->
           job.category.indexOf('finance') != -1
 
-    toggle = (category) =>
+    toggle = (category, selection) =>
       if category.indexOf('all') != -1
-        if !contains(category)
-          @show = []
-          @show.push(category)
+        if !contains(category, selection)
+          selection = []
+          selection.push(category)
       else
-        _all = @show.indexOf('all')
-        if _all != -1 then @show.splice(_all, 1)
-        _index = @show.indexOf(category)
+        _all = selection.indexOf('all')
+        if _all != -1 then selection.splice(_all, 1)
+        _index = selection.indexOf(category)
         if _index != -1
-          @show.splice(_index, 1)
-          @show.push('all') if @show.length == 0
-        else @show.push(category)
+          selection.splice(_index, 1)
+          selection.push('all') if selection.length == 0
+        else selection.push(category)
 
-    contains = (category) =>
-      @show.indexOf(category) != -1
+    contains = (category, selection) =>
+      selection.indexOf(category) != -1
 
-    isHidden = (category) =>
-      !contains(category) and !contains('all')
+    isHidden = (category, selection) =>
+      !contains(category, selection) and !contains('all', selection)
 
     goToJob = (slug) =>
       $location.path(slug)

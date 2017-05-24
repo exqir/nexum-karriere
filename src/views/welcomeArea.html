@@ -5,11 +5,19 @@
       Los jetzt :-)</p>
     <h2>Hier unsere freien Stellen. Interessiert? ________</h2>
     <ul class="category-filter-list">
-      <li><div class="job-category all" ng-class="{'active': vm.contains('all')}" ng-click="vm.toggle('all')">Alle</div></li>
-      <li><div class="job-category consultant" ng-class="{'active': vm.contains('consultant')}" ng-click="vm.toggle('consultant')">Beratung & Projektmanagement</div></li>
-      <li><div class="job-category creative" ng-class="{'active': vm.contains('creative')}" ng-click="vm.toggle('creative')">Kreation</div></li>
-      <li><div class="job-category technology" ng-class="{'active': vm.contains('technology')}" ng-click="vm.toggle('technology')">Technologie</div></li>
-      <li><div class="job-category finance" ng-class="{'active': vm.contains('finance')}" ng-click="vm.toggle('finance')">Finanzen & Administration</div></li>
+      <li><div class="job-category all" ng-class="{'active': vm.contains('all', vm.category)}" ng-click="vm.toggle('all', vm.category)">Alle</div></li>
+      <li><div class="job-category consultant" ng-class="{'active': vm.contains('consultant', vm.category)}" ng-click="vm.toggle('consultant', vm.category)">Beratung & Projektmanagement</div></li>
+      <li><div class="job-category creative" ng-class="{'active': vm.contains('creative', vm.category)}" ng-click="vm.toggle('creative', vm.category)">Kreation</div></li>
+      <li><div class="job-category technology" ng-class="{'active': vm.contains('technology', vm.category)}" ng-click="vm.toggle('technology', vm.category)">Technologie</div></li>
+      <li><div class="job-category finance" ng-class="{'active': vm.contains('finance', vm.category)}" ng-click="vm.toggle('finance', vm.category)">Finanzen & Administration</div></li>
+    </ul>
+    <ul class="location-filter-list">
+      <li><div class="job-location all" ng-class="{'active': vm.contains('all', vm.location)}" ng-click="vm.toggle('all', vm.location)">Alle</div></li>
+      <li><div class="job-location cologne" ng-class="{'active': vm.contains('cologne', vm.location)}" ng-click="vm.toggle('cologne', vm.location)"></div></li>
+      <li><div class="job-location hamburg" ng-class="{'active': vm.contains('hamburg', vm.location)}" ng-click="vm.toggle('hamburg', vm.location)"></div></li>
+      <li><div class="job-location munich" ng-class="{'active': vm.contains('munich', vm.location)}" ng-click="vm.toggle('munich', vm.location)"></div></li>
+      <li><div class="job-location basel" ng-class="{'active': vm.contains('basel', vm.location)}" ng-click="vm.toggle('basel', vm.location)"></div></li>
+      <li><div class="job-location bern" ng-class="{'active': vm.contains('bern', vm.location)}" ng-click="vm.toggle('bern', vm.location)"></div></li>
     </ul>
   </div>
   <br clear="all">

@@ -9,6 +9,7 @@ $finance-color: #4CBA3F;
 
 .category-filter-list {
   list-style: none;
+  float: left;
 
   & li {
     display: inline-block;
@@ -43,6 +44,66 @@ $finance-color: #4CBA3F;
       &.finance {
         background-color: $finance-color;
       }
+    }
+  }
+}
+
+.location-filter-list {
+  list-style: none;
+  float: right;
+  margin-right: .5rem;
+
+  & li {
+    display: inline-block;
+  }
+
+  & .job-location {
+    width: 20px;
+    height: 25px;
+    background-size: cover;
+
+    &.all {
+      font-size: 1rem;
+      padding: .2rem .5rem;
+      background-color: #eaeaea;
+      cursor: pointer;
+      color: #000;
+      margin-right: .5rem;
+      width: auto;
+      height: auto;
+
+      &.active {
+        background-color: #000;
+        color: #fff;
+      }
+    }
+
+    &.cologne,
+    &.hamburg,
+    &.munich,
+    &.basel,
+    &.bern {
+      filter: opacity(50%);
+
+      &:hover {
+            filter: opacity(100%);
+      }
+    }
+
+    &.cologne {
+      background-image: url('../assets/location-cologne.png');
+    }
+    &.hamburg {
+      background-image: url('../assets/location-hamburg.png');
+    }
+    &.munich {
+      background-image: url('../assets/location-munich.png');
+    }
+    &.basel {
+      background-image: url('../assets/location-basel.png');
+    }
+    &.bern {
+      background-image: url('../assets/location-bern.gif');
     }
   }
 }
